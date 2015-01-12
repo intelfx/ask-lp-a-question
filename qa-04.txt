@@ -1,0 +1,16 @@
+Q:
+With such a rapid release cycle are there feature freezes and pure  bug fixing time windows to ensure the next release is stable? 2-3 weeks  seems really really fast. Is there another software project that tries  to release like this? That almost sounds like even distros like Arch  would have a hard time keeping up especially since the core components  like systemd always go through the testing repo first and often stay  there for a week or two.
+
+A:
+Well,  systemd is not a component the end-user installs on top of his distro,  it's really a core component of the distro, and the distros need to do  work to integrate it everywhere. Hence: it's the job of the distro to  pick a release, integrate it into their OS, stabilize it when it is  needed.
+Note that there's actually a "stable" tree for systemd too now, that  is maitained jointly by people from Debian, Fedora and RHEL. They pick  specific versions they consider interesting for stabilization purposes  and then keep them updated with backports with bugfixes. This work  exists to make it easier for distributions to stabilize on specific  versions, instead of always drinking from the firehose. Also, we  nowadays mark all commits that we think are candidates for backporting  to stable release with the "git notes" feature, to assist the distros on  this.
+
+----
+
+Q:
+Будут ли новые релизы стабильными с таким быстрым циклом выпусков, окном для исправления багов и замораживанием функциональности? 2-3 недели кажутся мне совсем небольшим временем. Существуют ли свободные проекты с подобным графиком релизов? Таким дистрибутивам как Arch придется тяжело, так как там ключевые компоненты как systemd сначала проходят испытания в тестовых репозиториях, которые продолжаются обычно неделю или две.
+
+A:
+Systemd не является компонентом, который пользователь ставит поверх своего дистрибутива. Это действительно ключевой компонент Linux-дистрибутива, а самим разработчикам дистрибутивов нужно проделать определенную работу для интеграции systemd. Итак: это работа разработчиков дистрибутивов выбирать релиз systemd, интегрировать его в операционные системы и стабилизировать при необходимости.
+Обратите внимание, что есть на самом деле "стабильное" дерево Systemd теперь также сопровождается совместно людьми из Debian, Fedora и RHEL. Они выбирают себе отдельные версии для стабилизации, а потом обновляют их с backports и исправлениями. Эта делается для упрощения и распределения работ по стабилизации конкретной версии, вместо того чтобы всегда пить из брандспойта. Кроме того, мы в настоящее время отмечаем все коммиты, которые считаем кандидатами на портировании в стабильную версию с помощью "git notes", чтобы упростить дистрибутивам работу.
+

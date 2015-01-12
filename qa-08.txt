@@ -1,0 +1,15 @@
+Q:
+What kind of work loads or use cases would you foresee benefiting from performance gains once kdbus has been merged?
+
+A:
+kdbus  is primarilly interesting for the folks who work in the lower layers of  the stack, such as developers. On the systemd-side it comes with a new  set of tooling that hopefully opens up dbus to admins a bit more (by  making it easier to invoke/query the bus from scripts for example),  however strictly speaking that's not really a feature of kdbus itself...
+If we do everything right, then very little should change for users or workloads.
+
+----
+
+Q:
+Какие преимущества внедрения kdbus в ядро кроме производительности? И какие новые возможности открываются?
+
+A:
+Kdbus является прежде всего интересным для людей, которые работают в нижних слоях стека, например разработчиков. На стороне Systemd  kdbus поставляется с новым набором инструментов, которые, как мы надеемся, немного больше открывает функциональность dbus системным администраторам  (например, делает проще ссылки/запросы к dbus из сценариев,), однако, строго говоря, это не совсем особенность самого kdbus. Если мы сделаем все правильно, то для пользователей и администраторов очень мало что должно измениться.
+

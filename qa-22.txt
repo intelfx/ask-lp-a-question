@@ -1,0 +1,16 @@
+Q:
+With  regard to the complexity that PulseAudio and systemd have grown into:  What is your opinion on UNIX' 'do one thing and do it well'? Is that a  reasonable approach still in 2014?
+
+A:
+Real  UNIXes tend to maintain and ship a lot of components in same repo,  including the kernel, libc, and much of the basic userspace.
+I think the middle ground between the UNIX model of doing everything  in the same repo with the same release cycles, and the traditional Linux  model of doing everything in many individual, split-up repositories  with different coding style, release cycles and so on, is a good one.  And that's kinda what we try to do with systemd: reduce the number of  basic building blocks you need, but not bring it down to one. Also,  let's not forget that there are multiple Linux userspaces now  (Android...), and that's good that way.
+
+----
+
+Q:
+Вопрос касающийся увеличения сложности PulseAudio и systemd: как ты относишся к принципу UNIX "делать что-то одно, но делать это хорошо"? Это актуальный подход для 2014 года?
+
+A:
+Реальные UNIX-системы, как правило, включают в себя и сопровождают много компонентов в одном репозитории:  ядро, libc, и большая часть основного юзерспейса.
+Я считаю, что основная часть UNIX модели это когда все делают в одном репозитории на протяжении цикла релиза. А традиционная модель Linux — когда разработка более индивидуальна, репозитории раздельны з различными стилями программирования, циклами релизов и так далее, и все это хорошо. И это мы пытаемся сделать с Systemd: необходимо сократить количество основных строительных блоков, но не уменьшить к единому. Кроме того, давайте не забывать, что сейчас существует несколько юзерспейсов Linux (Android), и это также хорошо.
+

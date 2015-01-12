@@ -1,0 +1,14 @@
+Q:
+What is your next / current big project?
+
+A:
+systemd! Given its broad focus it's also going to stay systemd for a long time.
+
+----
+
+Q:
+Какой твой следующий большой проект?
+
+A:
+Systemd! Учитывая большую концентрацию на этом проекте сейчас, он останется таким надолго.
+

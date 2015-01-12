@@ -1,0 +1,14 @@
+Q:
+If systemd and the kernel are supposed to be updated in lockstep, are  you considering adopting the kernel's release cadence and versioning?
+
+A:
+Well,  we try to stay compatible with the kernel versions of the last two  years with each release. While I can only recommend to update systemd  and the kernel at the same time, we do have a bit of a time window of  flexibility there...
+
+----
+
+Q:
+Должны ли Linux Kernel и systemd  обновляться одновременно? Если да, рассматривается ли вопрос о принятии systemd графика релизов ядра и соответственную нумерацию версий?
+
+A:
+Мы стараемся сохранить совместимость каждого релиза systemd c версиями ядра за последние два года. Я могу только рекомендовать делать синхронное обновление ядра и systemd, пока у нас есть необходимое окно для принятия гибких решений.
+

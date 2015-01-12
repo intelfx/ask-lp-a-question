@@ -1,0 +1,14 @@
+Q:
+What future Linux kernel features excite you the most? Live patching the kernel looks awfully sexy right now.
+
+A:
+kdbus  of course! I really hope it this will get into the kernel quickly. It  would open up so much in systemd, since we currently have to abstain  from using dbus for pretty much anything in the early boot process,  which means journald or networkd currently have no bus interfaces.
+
+----
+
+Q:
+Какие будущее возможности ядра Linux волнуют тебя больше всего? Возможность патчить ядро во время его работы выглядит ужасно привлекательной уже сейчас.
+
+A:
+Конечно же kdbus! Я действительно надеюсь, что его быстро включат в ядро. Поддержка будет также в Systemd, так как в настоящее время мы должны воздерживаться от использования dbus для ранней стадии загрузки системы. Как раз поэтому  journald или networkd в настоящее время не имеют шинных интерфейсов.
+

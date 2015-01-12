@@ -1,0 +1,20 @@
+Q:
+Some  technically competent people belive that recent changes to dbus and  kdbus have as one goal a way to get around the GPL requisites. https://forums.gentoo.org/viewtopic-p-7645524.html#7645524
+
+A:
+Oh god. That conspiracy theorey I must admit I never heard before!
+I can assure you that kdbus is certainly not about licensing, though.  I mean, where would kdbus be there any different from dbus1 in that  regard? In fact, the text you pasted is really something you can apply  to any kind of IPC. Be it dbus, or CORBA, or UNIX pipes, or whatever  else... The assumption that OSes that provide good IPC do so to  circumvent the GPL sounds utterly adventurous to me. In reality, IPC is  really just a building block of OS designs, and it was since day one.
+To make a point: the GNU operating system with Hurd uses a  microkernel, which is traditionally very strong on IPC. Mach kernels  expose "Mach Ports" for this, which actually is a better IPC system than  Linux ever had in the kernel with proper procedure calls and whatnot.  Hurd is built around this IPC. Do you really believe that GNU wants to  circumvent the GPL by doing things this way?
+I don't use any closed source software on my PCs. Not so much because  of philosophical reasons, but simply because closed source software is  usually no fun to use, and you cannot even fix it.
+
+----
+
+Q:
+Некоторые  технически компетентные люди верят, что последние изменения в dbus и  kdbus преследуют цель обойти ограничения GPL и тем самым позволяют  использовать их в проприетарных приложениях.
+
+A:
+О ужас. Должен признаться, я никогда не слышал о такой теории заговора!
+Я могу заверить вас, что kdbus конечно же не имеет проблем с лицензией. И где отличия kdbus от dbus1 в этом плане? В самом деле, текст, который вы предоставили является тем, что вы сможете применить к любому виду IPC -  Dbus, CORBA или UNIX pipes, или что-нибудь еще... Предположение, что те операционные системы, которые обеспечивают хорошую IPC, помогают обойти ограничения лицензии GPL — это звучит совершенно дико для меня. На самом деле, IPC является просто строительным блоком для операционной системы, и это было так с самого первого дня.
+Чтобы поставить точки над i: операционная система GNU Hurd использует микроядро, которое традиционно является очень сильным в плане IPC. Ядрa Mach имеют лучшую подсистему IPC, чем Linux, с различными вызовами и процедурами. Hurd построен вокруг этой IPC. Вы действительно верите, что GNU хочет обойти GPL, делая операционные системы таким образом?
+Я не использую проприетарное програмное обеспечение ни на одной из моих машин. Не столько из философских причин, но просто потому что его неприятно использовать и ты даже не можешь его исправить.
+

@@ -1,0 +1,14 @@
+Q:
+Is more namespace integration planned for systemd (eg start this daemon in this network namespace)?
+
+A:
+We  have a couple of namespace features on our TODO list. For example,  assigning a socket unit to the same network namespace as a unit, and  suchlike.
+
+----
+
+Q:
+Планируется поддержна больших пространств имен (в ядре) для systemd(напрмер стартовать этот демон в сетевом пространстве имен)?
+
+A:
+У нас есть несколько особенностей пространств имен в списке TODO. Например, назначение юниту сокета того же самого пространства имен как и юниту, и тому подобное.
+

@@ -1,0 +1,23 @@
+Q:
+Once  Systemd adoption on the biggest distros (Debian/Ubuntu, RedHat, Arch)  is done, most of the derivate distros (Mint, Elementary, CentOS,  manjaro) will follow. This will give to the Systemd technical comitee  (if it exists) a special voice (voice, not dictatorship) over the vast  majority of the Linux distros.
+Does the Systemd team/Comitee will include developers or members  of the distros to include them on systemd's development path? Outside of  the RedHat/Fedora members or the Debian package maintainers.
+If so, do these developers from other distros wil have a say/vote over systemd path?
+Which Matrix movie is your favorite one?
+
+A:
+Well,  as the upstream authors we have acquired a fair chunk of influence, I  cannot deny that. That said, it's not us who put things in the distros,  it's the distro developers. We make recommendations how people should  package things, but it's really not up to us, and distros regularly  override our defaults or make changes to the code, and we are absolutely  OK with it. In fact, even Fedora and RHEL sometimes do things  differently from upstream, even though I am involved in packaging for  those distros! We provide a baseline,the distros then adapt it to their  needs.
+Also we try hard to make sure that the group of people who commit to  systemd is diverse and reflects the community in general. There are  people from Debian, Canonical, Mageia, Tizen among the commiters,  currently (of course Fedora/RHEL folks, too, but I figure you guessed  that). It's really an excercise for us to give up control. This is  supposed to be the antithesis I guess to how Upstart was managed, where  everything was about Canonical keeping control (with Copyright  Assignment even, and whatnot), and which certainly contributed to the  project's ultimate lack of success.
+Anyway, there's no denying that we wield some influence now, but we  try hard to work with everybody who's willing to, and go as far as  giving out commit access to the various people in question.
+Ultimately though we really want to keep systemd moving at fast pace,  hence if you are wondering if one day we will introduce official  "committees" that make technical decisions or though, then this his  highly unlikely.
+
+----
+
+Q:
+После того как Systemd был интегрирован в топовые дистрибутивы Linux (Debian/Ubuntu, RedHat, Arch), большинство из производных дистрибутивов (Linux Mint, Elementary, CentOS, Manjaro) будут следовать за ними. Это даст особенное преимущество (не диктатуру) техническому комитету Systemd (если такой существует) над подавляющим большинством дистрибутивов Linux. Будет ли команда Systemd включать в себя разработчиков или пользователей этих дистрибутивов? Не только участников RedHat/Fedora или сопровождающих пакет Systemd в Debian. Если да, то будут ли эти разработчики из других дистрибутивов иметь право голоса в проекте systemd? Какая часть трилогии The Matrix является вашей любимой?
+
+A:
+Я не могу отрицать, что мы как авторы получили некоторое справедливое влияние. Тем не менее, не мы занимались интеграцией systemd в дистрибутивы, это делали разработчики этих дистрибутивов. Мы предоставляем базовые рекомендации о правильном пакетировании, но это действительно не сильно важно для нас, и дистрибутивы регулярно переделывают многое или вносят изменения в код. И это абсолютно нормальная ситуация. В самом деле, даже проекты Fedora и RHEL иногда делают некоторые вещи по-другому, хотя я сам участвую в пакетировании systemd для этих дистрибутивов! Мы предоставляем базис, а дистрибутивы затем адаптируют его к своим нуждам.
+Также мы сильно стараемся убедиться, что группа разработчиков Systemd разнообразна и отражает мнения сообщества в целом. Среди разработчиков есть люди из Debian, Canonical, Mageia, Tizen, Fedora/RHEL (я полагаю, вы уже догадались). Для нас является большой задачей отказаться от контроля. Это должен быть противоположностью менеджмента Upstart, где все было построено на контроле Сanonical  (c помощью прав на код, и еще много чего), и что, безусловно, поспособствовало отсутствию шансов проекта на конечный успех.
+Во всяком случае, нет никаких сомнений, что у нас есть сейчас некоторое влияние. Но мы также стараемся работать со всеми желающими, и давать им права коммита.
+Мы действительно хотим чтобы Systemd движется быстрыми темпами, и если в один прекрасный день мы будем вводить официальные "комитеты", которые принимают технические решения или подобное, то это его маловероятно.
+

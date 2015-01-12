@@ -1,0 +1,14 @@
+Q:
+Has  the flak you've had over systemd (and other projects you're  instrumental in the development of) ever made you consider quitting  development in the open source community?
+
+A:
+For  some reason, not really. I have a thick skin, and for some reason I am  really not affected too much by the hateful comments we sometimes get in  the systemd team.
+
+----
+
+Q:
+Бросите ли вы разработку systemd( или других проектов, где вы играете ключевую роль в разработке) вместе с Open Source-cooбществом под давлением критики?
+
+A:
+Нет. У меня толстая кожа и большое количество ненавистных комментариев, которые мы иногда получаем как команда разработчиков systemd, не слишком сильно влияет на меня.
+

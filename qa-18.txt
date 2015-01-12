@@ -1,0 +1,39 @@
+Q:
+I've  been playing with systemd-nspawn as well. I have created a script for  myself that installs arch automatically on my desktop and considered to  replace arch-chroot (chroot plus a few more things) with systemd-nspawn  as I would be able to use things like localectl instead of creating  manually the symlinks etc. (as I would boot the systemd init system in  the container)
+Unfortunately I had a couple of problems. One I noticed was I couldn't make here-scripts to work so although I could do
+arch-chroot /mnt << HERE
+command1
+command2
+HERE
+I didn't find a way to do something like
+systemd-nspawn -bD /mnt << HERE
+command1
+command2
+HERE
+Also I didn't find a way to tell it to boot automatically to root user.
+So I'm still using arch-chroot in my script :)
+
+A:
+The   "-b" command boots up the full container with the init system it   contains. If you don't pass it you get a shell instead. If you just  want  to run a few commands inside a shell in the container, please drop  the  "-b".
+This is similar to booting a kernel on bare metal with init=/bin/bash in a way.
+
+----
+
+Q:
+Я создал для себя сценарий, который устанавливает Archlinux автоматически на моем десктопе и меняет arch-chroot (chroot плюс еще некоторые вещи) на systemd-nspawn, и где я мог бы использовать что-то вроде localectl вместо ручного создания символических ссылок и т.д. и запускать systemd внутри контейнера.
+К сожалению, я получил несколько проблем. Одной из них стала невозможность корректной работы скриптов:
+arch-chroot /mnt << HERE
+command1
+command2
+HERE
+Я не понимаю как сделать приблизительно следующее:
+systemd-nspawn -bD /mnt << HERE
+command1
+command2
+HERE
+И также не знаю как сделать автологин суперпользователя.
+
+A:
+Команда nspawn c флагом "-b"  загружает контейнер с вместе из системой инициализации, которую он содержит. Если вы не укажете его, то получите шелл. Если вы просто хотите запустить несколько команд внутри шелла в контейнере — тогда, пожалуйста, уберите "-b".
+Это похоже на запуск ядра на голом железе с параметром init=/bin/bash.
+

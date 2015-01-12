@@ -1,0 +1,16 @@
+Q:
+When starting systemd did you expected controversy to arise?  Where you surprised by the uproar aimed agains't systemd?
+Edit: What do you think will be your next project after systemd and  kdbus? Where do you think that we should improve linux's userspace?
+
+A:
+Oh  yes, we knew quite well what we were getting into. Both Kay Sievers and  I had prior experiences, and we knew exactly that it would be a  challenge to convince the technical community and then deal with the  flak from those who disagree.
+Note that while I work with kdbus I am not actually hacking on it, I  just contributed a couple of patches. My project is systemd, and given  its broad focus I figure there will be tons and tons of things to work  on before I'd look for a new project... systemd is after all one of  those open-ended projects that needs to progress with the rest of the  ecosystem and actually with all of IT.
+
+----
+
+Q:
+Когда разработка systemd только начиналась ты ожидал столько споров и полемики? Ти удивлен вообще уровнем шума и разногласий, которые породило появление systemd? Что будет твоим следующим проектом после systemd и kdbus? Считаешь ли ты что мы должны улучшить userspace в Linux?
+
+A:
+O да, мы достаточно хорошо это представляли. Нам с Каем Сиверсом пришлось пережить предыдущий опыт, и мы точно знали что убедить техническое сообщество будет проблемой, и потом также придется иметь дело с оравой несогластных. Обратите внимание, что в то время как я работаю с kdbus я на самом деле не полностью хакнул его, а просто внес несколько исправлений. Моим проектом является Systemd, и, учитывая большую концентрацию на нем, я полагаю что будут тонны и тонны вещей которые нужно сделать прежде, чем я хотел бы посмотреть на новый проект ... Systemd после всех является одним из тех открытых проектов, которым нужно прогрессировать с остальной частью экосистемы и на самом деле со всеми информационными технологиями.
+

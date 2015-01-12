@@ -1,0 +1,16 @@
+Q:
+How  do you balance appeasing the spectrum of users out there with changes  and new features? Does that weigh into the decesion makeing process, or  do you always go with your gut instinct and technical reasons for your  major changes? Seems that in every circle of users, there are a vocal  group that have taken issue with systemd, but also plenty of users who  either don't mind or welcome the changes.
+
+A:
+Well,  systemd is an Open Source project, and hence it lives of contributions  from the community. Hence, if somebody posts a patch on the ML, or makes  a feature request we actually value that. Of course, we'll not  implement everything that people ask for, but I think we implement more  of the requests we get than we don't. Of course, we regularly have  discussions within the community and the committers group what we should  add and what we shouldn't, but so far we never had trouble to come to  some form of agreement that most folks could live with.
+We never do things out of "gut instinct" though. Or at least we don't  try to. We are technical people, and systemd is really a technical  project for all else, hence technical criteria are what we consider most  import.
+
+----
+
+Q:
+Как вы находите баланс между позитивными и негативными взглядами пользователей на новую функциональность и вообще изменения в проекте? Они влияют на принятие решений, или вы всегда используете вашу хорошую интуицию и технические причины? Кажется, что в каждому кругу пользователей есть вокальная группа, которая имела проблемы с Systemd, но и также много других пользователей, которым безразлично или они приветствуют изменения.
+
+A:
+Systemd является проектом с открытым исходным кодом, и, следовательно, живет c помощью контрибьюторов от сообщества. Если кто-то отправляет патч в список рассылки, или делает запрос на особую функциональность —  мы действительно ценим это. Конечно, мы не будем делать все, что люди нас просят, но я думаю, что мы реализовываем большинство из получаемых запросов. Конечно, мы регулярно проводим обсуждения в рамках сообщества и групп контрибьюторов по различным вопросам и до сих пор у нас не было проблем с достижением консенсуса.
+Мы никогда не сделать что-то исходя только с "интуиции". Или, по крайней мере, мы не пытаемся так делать. Мы являемся технарями, и Systemd является действительно техническим проектом, поэтому технические критерии мы считаем самыми важными.
+

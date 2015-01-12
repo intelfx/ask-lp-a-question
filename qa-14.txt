@@ -1,0 +1,16 @@
+Q:
+systemd  seems to continue to add features at a fast pace. Do you know if a  future RHEL 7.x point release bump the version of systemd in RHEL 7?
+Or are RHEL 7 / CentOS 7 stuck at the version of systemd shipped?
+Particularly there are some forward to rsyslog features that are not in the version currently available in RHEL 7.
+
+A:
+I'd not expect a rebase, but small backports for the RHEL 7 release cycle. We'll rebase for RHEL 8 of course though.
+
+----
+
+Q:
+Systemd продолжает добавлять новую функциональность в быстром темпе. Будет ли в будущих релизах RHEL 7 обновление systemd к новым версиям? Или RHEL 7 вместе с Centos 7 будут продолжать использовать изначальную версию systemd?
+
+A:
+Я бы не ждал тотальных обновлений, но небольшие бэкпорты будут во время поддержки RHEL7. А обновления конечно стоит ждать с RHEL 8.
+

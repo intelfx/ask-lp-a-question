@@ -1,0 +1,27 @@
+Q:
+Is it a concern of yours to make the Linux the common desktop OS  used at RedHat? Do you think the new Fedora Workstation could help make  this happen?
+Do you think the recent overwhelming success of OSX among  developers poses a fundamental problem for Linux development, or is it  basically irrelevant to the progress of core Linux technologies?
+Does Linux have anything to offer developers now that Homebrew has become a ubiquitous package manager for OSX?
+What is your favourite programming language these days?
+Thank you for all your hard work.
+
+A:
+1: Note sure I get the question, but Red Hat Enterprise Linux already   is the common desktop OS used at Red Hat. Most engineers at RH also use   Fedora.
+Regarding  2: Of course it would be better if those folks would use  and improve  Linux instead of OSX, but then again I am pretty sure Linux  will be  there long after OSX is already gone, one day...
+I have no idea what "homebrew" is I must admit.
+I  like C. It's fucked up in many ways, but I use it almost  exlcusively  these days, and it's certainly the language I know best.  When you do  systems level stuff it's probably the language of choice.
+
+----
+
+Q:
+1. Интересуешься ли ты продвижением Linux на десктопах работников Red Hat? Как ты считаешь, новая Fedora Workstation может помочь в этом деле?
+2. Недавний ошеломляющего успех OSX среди разработчиков может создать фундаментальную проблему для развития Linux? Или он в основном не имеет отношения к прогрессу ключевых Linux-технологий?
+3. Может ли Linux предложить разработчикам что-нибудь взамен Homebrew, пакетного менеджера OSX?
+4. Какой сейчас твой любимый язык программирования? Спасибо за тяжелый труд.
+
+A:
+Относительно 1: Обратите внимание, что я получаю этот вопрос когда Red Hat Enterprise Linux уже является основной десктопной операционной системой в Red Hat. Большинство инженеров в RH также используют Fedora.
+Относительно 2: Конечно же, будет лучше если все эти люди будут использовать и совершенствовать Linux вместо OSX, но опять таки я полностью уверен — Linux будет жить долго после того, как OSX не станет в один прекрасный день...
+Что касается "homebrew", то у меня нет идей насчет его нужности.
+Я люблю C. Это может быть зубодробительно в некоторых cлучаях, но я сейчас использую его почти эксклюзивно. И это конечно лучший язык программирования среди тех, которые я знаю. Если вы делаете проекты на системном уровне, то у вас пожалуй нет выбора.
+

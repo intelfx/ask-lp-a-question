@@ -1,0 +1,15 @@
+Q:
+How many of the  goals set for PulseAudio have been achieved and what else needs to be done?
+
+A:
+Note that I am not too involved with PulseAudio anymore, I have passed on maintainership to a new team who do fantastic work.
+Back when I started PA my only goal was to write a better sound  server than "EsounD", a very simple, very old sound server from the  Enlightenment camp. I think that goal we managed to reach a long time  ago.
+
+----
+
+Q:
+Сколько целей проекта PulseAudio было достигнуто и что еще предстоит cделать?
+
+A:
+Я не слишком увлечен в разработку PulseAudio cейчас, так как передал дела новой команде и они делают просто фантастическую работу. Когда я только начинал разработку PA моей единственной целью было написать звуковой сервер получше чем "EsounD" — очень простой и очень старый сервер с десктопного окружения Enlightenment. Считаю, что эту цель мы достигли уже давно.
+

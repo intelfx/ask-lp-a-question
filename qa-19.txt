@@ -1,0 +1,14 @@
+Q:
+Yeah  I figured out without -b (I read a lot of the man pages of systemd) but  I stayed with arch-chroot because without -b there isn't much  difference (e.g. can't use commands like localectl).
+
+A:
+There's  an item on the TODO list to allow passing a set of commands to run on  the kernel cmdline. We would then run those commands in a service, and  as soon as the service is completed we'd shut down the system again.  This would allow you to boot up the system in full, execute the exact  commands you like, and shut it down again right-after. And this would  not only be useful for the container case, but also for a kvm case, or  even on bare-metal...
+
+----
+
+Q:
+Я пробовал так делать, но остаюсь на arch-chroot, так как без флага '-b' нельзя использовать такие команды, как localectl.
+
+A:
+Этот пункт есть в списке TODO - возможность передать через параметры ядра список команд, которые необходимо выполнить на свежезагруженной системе. Мы бы могли тогда на лету создавать из этих команд юнит-файл [по аналогии с systemd-run -- прим. пер.] и останавливать систему сразу по окончании его работы. Это позволит автоматизировать выполнение произвольных команд на полностью запущенной системе. И это будет не только полезным для контейнеров, но также для KVM, или даже bare metal.
+

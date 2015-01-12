@@ -1,0 +1,22 @@
+Q:
+Do  the non-technical criticisms of your work ever make you stop and think  that maybe it would be beneficial to work on being less  abrasive/divisive? Perhaps change up the approach to the message to  reduce distractions with the content?
+
+A:
+Well,  I am pretty sure most people who think we are abrasive/divisive  probably never actually tried to talk to us. Because I don't actually  think we are that bad.
+I mean, there are always things where we will say No to. When we do  this, we try to give good technical answers. Of course this is  disappointing if you don't get the feature that you wanted most, and  sometimes people will say we don't listen. But we actually do, we just  sometimes disagree.
+Yes, many of us in the systemd community have strong opinions and  convictions and we will make them clear, and I guess some of us  (including me) can be very direct at that (I guess this is kind of a  german thing to a certain level). But in general, we are technical  people, and if you have a technical request we always consider it.
+The systemd community is actually nowadays huge and quite a happy  place. Just check the amount of mails we nowadays get on the ML! I think  most people actually are quite content with how things run in the  community. We try to reply to every mail we get (though sometimes there  might be a bit of a delay, given the amount we get these days). And we  certainly implement more requests from the community than we don't.
+The tone is definitely better inside the systemd community currently,  on its mailing lists on IRC than on LKML. Not sure if LKML is a good  benchmark of good human behaviour, but I can assure you it's so much nicer on systemd-devel than there!
+
+----
+
+Q:
+Заставляет ли тебя нетехническая критика остановиться и подумать что, может быть, стоит работать в атмосфере с меньшим количеством несогласий и противоречий? Возможно стоит изменить подход и убрать отвлекающие части из содержания?
+
+A:
+Ну, я абсолютно уверен что большинство людей, которые думают что мы грубые и упертые, вероятно, никогда не пытались общаться с нами. Поэтому я  не думаю, что на самом деле мы такие плохие.
+Я имею в виду, что всегда есть вещи где мы будем говорить НЕТ. Когда мы делаем так, то также стараемся дать хорошие технические обоснования. Конечно, это разочаровывает. если вы не получите функциональность, которую хотели больше всего, и поэтому иногда люди говорят что мы их не слушаем. Но на самом деле мы просто иногда не соглашаемся.
+Да, многие из сообщества systemd  имеют мнения и сильные убеждения, и мы даем им выразиться. Я думаю, некоторые из нас включая меня могут быть очень прямо выражаться при этом (я предполагаю, что это своего рода немецкий стиль). Но в целом мы являемся технарями, и если у вас есть технический запрос, то мы всегда его рассмотрим.
+Сообщество Systemd, на самом деле, сейчас огромное и полностью счастливое (место). Просто посмотрите на количество писем, которые мы сейчас получаем в списке рассылки! Я думаю, что большинство людей на самом деле вполне довольны устройством работы в сообществе. Мы стараемся ответить на каждое сообщение по электронной почте, которые мы получаем (хотя иногда могут быть небольшие задержки, учитывая большое количество писем). И мы, конечно, реализовываем большую часть запросов от сообщества.
+Атмосфера внутри сообщества Systemd, в списках рассылки и IRC-каналах сейчас безусловно лучше чем в LKML(Linux Kernel Mailing List). Не уверен, что LKML является тестом хорошего поведения человека, но я могу заверить вас, что на systemd-devel гораздо лучше чем там!
+

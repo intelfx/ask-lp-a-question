@@ -1,0 +1,18 @@
+Q:
+As  a unifying technology, systemd can't help but present a possible attack  surface. What has and is being done to counteract that?
+
+A:
+Well,  given that there's so little code review actually taking place I think  it's actually beneficial to share more code between the various  projects, and unify the security senstive one in fewer places.
+Unified service management also allows us to secure the system much  better. Security is a priority for us, and we work hard to ensure that  systemd has a lot of security features to offer that allow making  systems more secure by default. For details see this talk I recently  did:
+https://plus.google.com/+LennartPoetteringTheOneAndOnly/posts/5bAfFSrXcEf
+
+----
+
+Q:
+Systemd как унифицируемая технология не может помочь, но подвержена атакам. Что уже сделано и нужно сделать для предотвращения?
+
+A:
+Учитывая что проверок исходного кода относительно мало, я думаю нужно больше делиться кодом между различными проектами и унифицировать одну модель безопастности в неcкольких местах.
+Единое управление службами также позволяет нам достичь большей безопастности. Сама безопастность является приоритетом для нас, и мы работаем над различными функциональностями безопастности в systemd, что сделает операционные системы более безопастными по умолчанию. Для более детальной информации посмотрите мое выступление здесь:
+https://plus.google.com/+LennartPoetteringTheOneAndOnly/posts/5bAfFSrXcEf
+

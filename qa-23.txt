@@ -1,0 +1,18 @@
+Q:
+… And: Should things like systemd be included in the Kernel?
+
+A:
+Well,  systemd splits up what it needs to do in many different components (90+  binaries these days). Each one we run with as little privileges as  possible. In a way you can do this as doing one thing and one thing  well. Except that we simply ship a lot of things in the same package.
+I figure this isn't too much unlike coreutils, which also ships a lot  of components in one package. And coreutils probably is one of the main  projects that make Linux feel like a UNIX-like OS, right?
+But yeah, systemd is more complex than sysvinit, there's no  doubt. In the last 40 years of computing a lot of things changed, and  many of them actually require some level of complexity to deal with  them... There's very little way around that.
+
+----
+
+Q:
+И еще: проекты подобные systemd будут включаться в ядро?
+
+A:
+Systemd разделен на отдельнык компоненты(примерно 90 бинарных файлов сейчас). И каждый мы запускаем с минимальными привилегиями, где это возможно. В некотором смысле вы можете это сделать в стиле "все в одном". Кроме того, мы просто упаковываем много вещей в одном пакете.
+Я полагаю,  это не слишком много в сравнении с сoreutils, который также поставляется с большим количеством компонентов в одном пакете. Наверное, сoreutils является одним из основных проектов, которые позволяют Linux чувствовать себя UNIX-подобной ОС, не так ли?
+Но да, Systemd является более сложным чем Sysvinit, и в этом нет никаких сомнений. В последние 40 лет компьютеризации многие вещи изменилось, и многие из них требуют определенного уровня сложности для работы... Проектов без подобных изменений довольно мало.
+

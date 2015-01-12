@@ -1,0 +1,17 @@
+Q:
+I  tried to use systemd-nspawn to run a Arch Linux ARM on my Galaxy Nexus  running Sailfish OS, but it complained about missing namespacing  features in the kernel. Might have to rebuild the kernel with a new  .config.
+What's the minimum you need in a container in order to nspawn it? I  created a bootstraped folder with only systemd in it (used the arch  bootstrap tool) and it worked, but it of course had to pull in all the  dependencies and glibc alone is fairly big and the systemd package I  installed also wasn't stripped to the minimum. I would like to have a  container that's just maybe 10 MB in size.
+
+A:
+Actually,  nspawn can even run containers without an init system. If you want to  go absolutely minimal, you could just stick a single binary in it, if it  is statically linked. Or you could just invoke a shell in the container  and that's it.
+How minimal you can get really depends on your distro. From upstream  only libc and libcap are hard deps, and you can turn off a lot of  components of systemd a compile time.
+
+----
+
+Q:
+Я  пытался использовать Systemd-nspawn для запуска Arch Linux ARM на моем  Galaxy Nexus, который работает на Sailfish OS, но получил уведомление об  отсутствующей функции namespacing в ядре. Возможно, придется  пересобрать ядро с новым конфигом. Что нужно для запуска контейнера в nspawn?
+
+A:
+На самом деле, контейнеры nspawn могут работать без системы инициализации. Если вы хотите пойти по миниимальному пути, вы могли бы просто запускать один статически слинкованый бинарник. Или просто запустить шелл в контейнере и все.
+Насколько минимальный контейнер вы можете получить на самом деле зависит от вашего дистрибутива. Из апстрима только libc и libcap имеют жесткие зависимости, и вы также можете исключить много компонентов systemd во время компиляции.
+

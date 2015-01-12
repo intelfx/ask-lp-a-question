@@ -1,0 +1,14 @@
+Q:
+I would like to know about tangible forms of contribution. Is there a  place where a roadmap is available and who to talk to, to get first hand  in so one can actually start submitting patches. In other words id like  to know what to avoid trying to contribute to avoid having patches  rejected.
+
+A:
+There's  no real "roadmap". We do maintain a pretty extensive TODO list in the  git repo, of stuff we want to see added. The individual items listed are  very terse, if you want to know more details ask on the ML or on IRC.
+
+----
+
+Q:
+Я хотел бы узнать о формах вклада в проект. Существует ли место, где доступен план работ и можно поговорить с разработчиками, получить из первых рук актуальную информацию и начать представлять необходимые патчи? Другими словами, хотелось бы узнать информацию, которая поможет избежать отклонения моих патчей.
+
+A:
+Нет никакой "дорожной карты". Мы поддерживаем довольно обширный  TODO-список вещей, которые мы хотим добавить в git-репозитории. Отдельные пункты там очень лаконичны, если вы хотите узнать более подробную информацию — спросите в списке рассылки или на IRC-канале.
+

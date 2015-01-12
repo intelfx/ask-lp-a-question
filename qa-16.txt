@@ -1,0 +1,16 @@
+Q:
+Whats your favorite thing that systemd can do that not many people know about? If you were to plan on intergating some sort of package manager into systemd what would it be like?
+
+A:
+The  favourite thing? Hmm, maybe "systemd-nspawn", the mini-container  manager tool that comes with it. It's so trivially easy to use, and the  code is simple too, I hence love it to. I nowadays do most of my testing  work for systemd with a "systemd-nspawn" container, because it's so  easy to use. If you haven't tried it yet, give it a run. It's like  /usr/sbin/chroot, but a ton more powerful and automatic.
+Regarding package management: I think RPM and dpkg do this quite  well. We have plans however to introduce some app scheme with proper  containerization one day. For details see http://0pointer.net/blog/revisiting-how-we-put-together-linux-systems.html
+
+----
+
+Q:
+Какой непопулярный функционал systemd нравится тебе больше всего? Если бы у тебя были планы на интеграцию менеджер пакетов в Systemd, на что он был бы похож?
+
+A:
+Хм, может быть, "Systemd-nspawn", менеджер мини мини-контейнеров, которые идут вместе с ним. Это очень тривиально в использовании и код также несложный, и поэтому я люблю его. Я в настоящее время провожу большую часть своей испытательной работы для systemd с помощью "Systemd-nspawn" контейнерлв, потому что использовать их очень просто. Если вы еще не пробовали, попробуйте — это действительно того стоит. Похоже на /usb/bin/chroot, но куда мощнее и лучше автоматизировано.
+Что касается управления пакетами: я думаю, RPM и dpkg достаточно хороши. У нас есть некоторые планы о контейнеризации приложений. Более подробную информацию посмотрите здесь http://0pointer.net/blog/revisiting-how-we-put-together-linux-systems.html
+
