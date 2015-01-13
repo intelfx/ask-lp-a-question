@@ -18,7 +18,7 @@ while read line; do
 			CONT=
 		else
 			if ! (( CONT )); then
-				exec > qa-$(( ++COUNT )).txt
+				exec > qa-$(printf "%02d" "$(( ++COUNT ))").txt
 				echo "Q:"
 				CONT=1
 			fi
