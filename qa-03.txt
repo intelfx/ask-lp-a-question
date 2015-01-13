@@ -1,6 +1,7 @@
 Q:
-Anything special planed for 666?
-Merge into the kernel perhaps?
+What was the reasoning behind the systemd versioning 217, 218 instead of 2.34.1 etc.? Wouldn't the traditional scheme make it easier to identify big changes, maybe API changes etc.? Anything special planed for 666? Merge into the kernel perhaps?
+
+Any progress on the "revisting on how we put together distros" front?
 
 A:
 We  kinda wanted to have a steady stream of releases with small changes  rather than fewer releases with big changes. Hence, the simple, linear  versioning scheme. Our intention is actually to do a new release every  2-3 weeks, but currently we are not particularly good at keeping that  pace up... We try to be very conservative with API breakages, as soon as  we marked an API stable...
@@ -10,9 +11,14 @@ Regarding progress on the put together distro stuff: we are working  on many sma
 ----
 
 Q:
-Есть ли особые планы на версию 666? Объединить код с ядром например?
+В чём причина того, что systemd отошёл от традиционной схемы версионирования с несколькими компонентами (например, "2.34.1")? Это позволило бы легче узнавать релизы с большим количеством изменений -- или те, в которых меняется API.
+
+Есть ли особые планы на версию 666? Объединить код с ядром, например?
+
+Как обстоят дела с новым подходом к организации дистрибутивов [речь о http://0pointer.net/blog/revisiting-how-we-put-together-linux-systems.html -- прим. пер.]?
 
 A:
-Мы бы хотели выпускать чаще стабильные релизы с небольшим количеством изменений и меньше релизов с большими изменениями. И таким образом получить линейные схемы версий. На самом деле, наша цель — новый релиз каждые 2-3 недели, но в настоящее время мы не достигли абсолютного успеха... Мы пытаемся быть очень консервативными в вопросах разрушения API, так как только сделали его стабильным. К версии 666 путь длинный, так что спросите меня еще раз поближе к релизу!
-Относительно прогресса объединения опыта различных дистрибутивов: мы работаем в настоящее время на стыке многих небольших строительных блоков, например kdbus. Все это еще может занять некоторое время.
+Мы бы хотели стремиться к частому выпуску новых версий с относительно небольшим количеством изменений в каждой. Именно поэтому нумерация версий у нас линейная. На самом деле, наша цель -— новый релиз каждые 2-3 недели, но сейчас у нас не очень получается. Насчёт API -- мы пытаемся быть очень консервативными в вопросах сохранения обратной совместимости (разумеется, только тех интерфейсов, что помечены как стабильные). А до версии 666 ещё далеко, так что спросите меня об этом поближе к релизу!
+
+Относительно нового подхода к построению дистрибутивов: мы в настоящее время работаем над вещами из более низких слоёв (например, над kdbus), и нам потребуется некоторое время, чтобы с ними всё закончить.
 
