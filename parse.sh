@@ -18,7 +18,7 @@ while read line; do
 			CONT=
 		else
 			if ! (( CONT )); then
-				exec > parsed/qa-$(( ++COUNT )).txt
+				exec > qa-$(( ++COUNT )).txt
 				echo "Q:"
 				CONT=1
 			fi
